@@ -3,10 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>타이틀 입니다.</title>
+    <title>숫자 맞추기 게임</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <p>도메인을 만들었습니다.</p>
+    <div class="wrap">
+      <h1 class="title">숫자 맞추기 게임!!!</h1>
+      <div id="result-area">Game Start!!!</div>
+      <div id="chance-area">남은 기회: 3회</div>
+      <input id="user-input" type="number" />
+      <button id="play-button" class="button">Go!!!</button>
+      <button id="reset-button" class="button">Reset!</button>
+      <div>
+        <p>숫자맞추기 정답!!!</p>
+        <div id="result"></div>
+      </div>
+    </div>
+
+    <script src="number.js"></script>
   </body>
 </html>

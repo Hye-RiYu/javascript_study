@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background-image: url(https://t2.daumcdn.net/thumb/R720x0/?fname=http://t1.daumcdn.net/brunch/service/user/2fG8/image/s-4qZrau-0xTdDpHl7p1HGmueso.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrap {
+  text-align: center;
+  background-color: rgba(0,0, 0,0.4);
+  width: 500px;
+  height: 400px;
+  color: white;
+}
+
+.title {
+  margin-top: 60px;
+  color: yellow;
+}
+
+#result-area {
+  font-size: 24px;
+}
+
+#chance-area {
+  font-size: 12px;
+  margin: 12px 0 6px 0;
+}
+
+#user-input:focus {
+  outline: none;
+}
+
+.button {
+  background-color: green;
+  border: none;
+  height: 21px;
+  color: white;
+  font-size: 12px;
+  font-weight: 100;
+}
+
+
+@media screen and (max-width: 48rem) {
+
+}
