@@ -35,6 +35,10 @@ body {
   outline: none;
 }
 
+.button-area {
+  display: inline-block;
+}
+
 .button {
   background-color: green;
   border: none;
