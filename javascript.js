@@ -70,6 +70,7 @@ function play() {
 
     if(gameOver == true) {
         playButton.disabled = true;
+        resultArea.textContent = "Game Over";
     }
 
 }
