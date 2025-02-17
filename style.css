@@ -47,4 +47,25 @@ body {
 
 @media screen and (max-width: 48rem) {
 
+  .wrap {
+    width: 340px;
+    height: 340px;
+  }
+  
+  .title {
+      margin-top: 40px;
+  }
+
+  .button-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .button {
+    display: block;
+    width: 170px;
+    margin: 4px 0 4px 0 ;
+  }
+
 }
